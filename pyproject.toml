@@ -1,0 +1,15 @@
+[tool.pylint.messages_control]
+
+disable = [
+    "missing-function-docstring",
+    "too-few-public-methods",
+    "missing-module-docstring"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+multi_line_output = 3
+length_sort = true
