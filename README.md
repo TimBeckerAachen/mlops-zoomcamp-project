@@ -8,3 +8,5 @@ Repository to store the final project of the MLOps Zoomcamp of DataTalks Club.
 - black --diff . | less apply -> black .
 
 - pre-commit install
+
+test
